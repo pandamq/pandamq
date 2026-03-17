@@ -38,11 +38,11 @@
         "award_time": "2025"
       },
       {
-        "award_info": "Cross-speaker Emotion Transfer Based On Prosody Compensation for End-to-End Speech Synthesis（InterSpeech 2022，五作）",
+        "award_info": "Cross-speaker Emotion Transfer Based On Prosody Compensation for End-to-End Speech Synthesis（InterSpeech，五作）",
         "award_time": "2022"
       },
       {
-        "award_info": "Cross-media User Profiling with Joint Textual and Social User Embedding（COLING 2018，三作）",
+        "award_info": "Cross-media User Profiling with Joint Textual and Social User Embedding（COLING，三作）",
         "award_time": "2018"
       }
     ],
@@ -54,17 +54,17 @@
           "2019.07",
           null
         ],
-        "work_desc": "1. 主导参与出门问问多代 TTS 系统的前沿算法研究、模型优化及工程化落地\n2. 负责 LLM-based 语音合成（Spark-TTS）核心模块研发，以二作发表 SOTA 论文\n3. 负责魔音工坊产品语音合成模型迭代及 ToB 私有化部署技术支持"
+        "work_desc": "1. 参与主导出门问问多代 TTS 系统的前沿算法研究、模型优化及工程化落地\n2. 负责 LLM-based 语音合成（Spark-TTS）核心模块研发，以二作发表 SOTA 论文\n3. 负责魔音工坊产品语音合成模型迭代及 ToB 私有化部署技术支持"
       }
     ],
     "skillList": [
       {
         "skill_name": "语音合成 / TTS",
-        "skill_desc": "熟悉端到端 TTS、声音克隆、声音转换、LLM-based 语音生成；有多代工业级 TTS 系统研发与上线经验"
+        "skill_desc": "熟悉端到端 TTS、声音转换、LLM-based 语音生成"
       },
       {
         "skill_name": "语音离散化",
-        "skill_desc": "熟悉 FSQ、VQ；主导 BiCodec 全局特征离散化方案设计"
+        "skill_desc": "熟悉 FSQ、VQ；主导 BiCodec 语音离散化"
       },
       {
         "skill_name": "深度学习框架",
@@ -85,14 +85,14 @@
         "project_role": "核心研发工程师",
         "project_time": "2023.05 - 至今",
         "project_desc": "基于 LLM 的新一代 TTS 系统研发，核心创新为 BiCodec 语音离散化框架，支持零样本声音克隆与 13 种语言合成，为业界 SOTA 工作。",
-        "project_content": "1. 主导 BiCodec 语音离散化模块研发：利用 SSL 特征辅助，结合 Learnable Queries 和 FSQ 离散说话人特征，相较上一代 PESQ 提升 0.3、说话人相似度提升 0.1\n2. 参与 GPT 大模型训练实验，使用约 50 万小时中英文数据预训练 + 10 万小时精筛数据 SFT，具备优秀声音克隆能力\n3. 设计并执行大模型预训练数据处理全流程：说话人分离、VAD、音质筛选、ASR 清洗，产出 10 万小时 SFT 数据\n4. 完成 60 万小时小语种实验，支持 13 种主流语言；完成 1000+ 小时高质量数据实验，用于内部定制化精品声音"
+        "project_content": "1. 主导 BiCodec 语音离散化模块研发：利用 SSL 特征辅助，结合 Learnable Queries 和 FSQ 离散说话人特征，相较上一代 PESQ 提升 0.3、说话人相似度提升 0.1\n2. 引入 F0 Predictor 对 BiCodec 进行音高约束，有效解决变调问题，变调发生率降低 90%\n3. 探索以 Diffusion 模型替换 BiCodec Decoder，提升解码端语音生成质量，PESQ 指标提升 0.1\n4. 参与 GPT 大模型训练实验，使用约 50 万小时中英文数据预训练 + 10 万小时精筛数据 SFT，具备优秀声音克隆能力\n5. 设计并执行大模型预训练数据处理全流程：说话人分离、VAD、音质筛选、ASR 清洗，产出 10 万小时 SFT 数据\n6. 完成 60 万小时小语种实验，支持 13 种主流语言；完成 1000+ 小时高质量数据实验，用于内部定制化精品声音"
       },
       {
         "project_name": "语音合成工程化部署及上线",
         "project_role": "算法工程师",
         "project_time": "2020.10 - 至今",
         "project_desc": "负责魔音工坊产品语音合成模型的持续迭代优化，以及面向企业客户的 TTS 私有化部署支持。",
-        "project_content": "1. 负责魔音工坊产品 200+ 发音人模型更新与迭代优化，涵盖离线/在线模型训练与上线\n2. 设计后端自动训练流程，支持标注团队完成标注后自动触发声音克隆训练，大幅减少算法工程师介入\n3. 负责 ToB 私有化部署，提供模型优化、服务搭建与技术支持\n4. 优化并维护声音转换服务，保障线上稳定性"
+        "project_content": "1. 负责魔音工坊产品 1000+ 发音人模型更新与迭代优化，涵盖离线/在线模型训练与上线\n2. 设计后端自动训练流程，支持标注团队完成标注后自动触发声音克隆训练，大幅减少算法工程师介入\n3. 负责 ToB 私有化部署，提供模型优化、服务搭建与技术支持\n4. 优化并维护声音转换服务，保障线上稳定性"
       },
       {
         "project_name": "语音合成算法研究（第三代至第五代 TTS）",
@@ -104,7 +104,7 @@
     ],
     "workList": [
       {
-        "work_name": "魔音工坊（moyin.com）",
+        "work_name": "魔音工坊",
         "work_desc": "出门问问旗下 AI 配音产品，支持多语言、多发音人、声音克隆等功能，参与核心语音合成算法研发与模型迭代",
         "work_link": "https://moyin.com"
       },
@@ -114,5 +114,5 @@
         "work_link": "https://github.com/SparkAudio/Spark-TTS"
       }
     ],
-    "aboutme": "6 年语音合成算法研究与工程化经验，专注 TTS、声音克隆与 LLM-based 语音生成。主导参与出门问问多代 TTS 系统研发及产品落地，以二作发表 Spark-TTS（LLM-based TTS SOTA，arXiv:2503.01710），开源项目（https://github.com/SparkAudio/Spark-TTS）获得11k star。具备从数据处理、模型训练到工程部署的全链路能力，积极跟进业界前沿算法。"
+    "aboutme": "6 年语音合成算法研究与工程化经验，专注 TTS、声音克隆与 LLM-based 语音生成。参与主导出门问问多代 TTS 系统研发及产品落地，以二作发表 Spark-TTS（LLM-based TTS SOTA，arXiv:2503.01710），开源项目（https://github.com/SparkAudio/Spark-TTS）获得 11k star。具备从数据处理、模型训练到工程部署的全链路能力，积极跟进业界前沿算法。"
 }
