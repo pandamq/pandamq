@@ -21,8 +21,7 @@
           "2019.06.30"
         ],
         "school": "苏州大学",
-        "major": "计算机技术（自然语言处理方向）",
-        "academic_degree": "硕士研究生"
+        "major": "计算机技术（自然语言处理方向）"
       },
       {
         "edu_time": [
@@ -30,13 +29,12 @@
           "2016.06.30"
         ],
         "school": "河南农业大学",
-        "major": "软件工程",
-        "academic_degree": "本科"
+        "major": "软件工程"
       }
     ],
     "awardList": [
       {
-        "award_info": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens（二作，arXiv:2503.01710）",
+        "award_info": "Spark-TTS: An Efficient LLM-Based Text-to-Speech Model with Single-Stream Decoupled Speech Tokens（二作，https://arxiv.org/abs/2503.01710）",
         "award_time": "2025"
       },
       {
@@ -51,7 +49,7 @@
     "workExpList": [
       {
         "company_name": "出门问问（苏州）信息与科技有限公司",
-        "department_name": "语音算法",
+        "department_name": "高级语音算法工程师",
         "work_time": [
           "2019.07",
           null
@@ -66,7 +64,7 @@
       },
       {
         "skill_name": "语音离散化",
-        "skill_desc": "熟悉 FSQ、VQ、SSL 特征（wav2vec/HuBERT）；主导 BiCodec 全局特征离散化方案设计"
+        "skill_desc": "熟悉 FSQ、VQ；主导 BiCodec 全局特征离散化方案设计"
       },
       {
         "skill_name": "深度学习框架",
@@ -86,7 +84,7 @@
         "project_name": "大模型语音合成系统（Spark-TTS）",
         "project_role": "核心研发工程师",
         "project_time": "2023.05 - 至今",
-        "project_desc": "基于 LLM 的新一代 TTS 系统研发，核心创新为 BiCodec 语音离散化框架，支持零样本声音克隆与 13 种语言合成，为业界 SOTA 工作（arXiv:2503.01710）。",
+        "project_desc": "基于 LLM 的新一代 TTS 系统研发，核心创新为 BiCodec 语音离散化框架，支持零样本声音克隆与 13 种语言合成，为业界 SOTA 工作。",
         "project_content": "1. 主导 BiCodec 语音离散化模块研发：利用 SSL 特征辅助，结合 Learnable Queries 和 FSQ 离散说话人特征，相较上一代 PESQ 提升 0.3、说话人相似度提升 0.1\n2. 参与 GPT 大模型训练实验，使用约 50 万小时中英文数据预训练 + 10 万小时精筛数据 SFT，具备优秀声音克隆能力\n3. 设计并执行大模型预训练数据处理全流程：说话人分离、VAD、音质筛选、ASR 清洗，产出 10 万小时 SFT 数据\n4. 完成 60 万小时小语种实验，支持 13 种主流语言；完成 1000+ 小时高质量数据实验，用于内部定制化精品声音"
       },
       {
@@ -116,5 +114,5 @@
         "work_link": "https://github.com/SparkAudio/Spark-TTS"
       }
     ],
-    "aboutme": "6 年语音合成算法研究与工程化经验，专注 TTS、声音克隆与 LLM-based 语音生成。主导参与出门问问多代 TTS 系统研发及产品落地，以二作发表 Spark-TTS（LLM-based TTS SOTA，arXiv:2503.01710）。具备从数据处理、模型训练到工程部署的全链路能力，积极跟进业界前沿算法。"
+    "aboutme": "6 年语音合成算法研究与工程化经验，专注 TTS、声音克隆与 LLM-based 语音生成。主导参与出门问问多代 TTS 系统研发及产品落地，以二作发表 Spark-TTS（LLM-based TTS SOTA，arXiv:2503.01710），开源项目（https://github.com/SparkAudio/Spark-TTS）获得11k star。具备从数据处理、模型训练到工程部署的全链路能力，积极跟进业界前沿算法。"
 }
