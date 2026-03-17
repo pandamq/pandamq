@@ -114,5 +114,7 @@
         "work_link": "https://github.com/SparkAudio/Spark-TTS"
       }
     ],
-    "aboutme": "6 年语音合成算法研究与工程化经验，专注 TTS、声音克隆与 LLM-based 语音生成。参与主导出门问问多代 TTS 系统研发及产品落地，以二作发表 Spark-TTS（LLM-based TTS SOTA，arXiv:2503.01710），开源项目（https://github.com/SparkAudio/Spark-TTS）获得 11k star。具备从数据处理、模型训练到工程部署的全链路能力，积极跟进业界前沿算法。"
+    "aboutme": {
+      "aboutme_desc": "6 年语音合成算法研究与工程化经验，专注 TTS、声音克隆与 LLM-based 语音生成。参与主导出门问问多代 TTS 系统研发及产品落地，以二作发表 Spark-TTS（LLM-based TTS SOTA，arXiv:2503.01710），开源项目（https://github.com/SparkAudio/Spark-TTS）获得 11k star。具备从数据处理、模型训练到工程部署的全链路能力，积极跟进业界前沿算法。"
+    }
 }
